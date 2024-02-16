@@ -5,6 +5,7 @@
   "homepage": "http://haechi-labs.github.io/face-sample-dapp",
   "dependencies": {
     "@craco/craco": "^7.1.0",
+    "@haechi-labs/face-kit": "1.1.6",
     "@haechi-labs/face-sdk": "^1.12.5",
     "@haechi-labs/face-types": "^1.12.5",
     "@testing-library/jest-dom": "^5.16.4",
@@ -17,6 +18,8 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "recoil": "^0.7.5",
+    "tslib": "2.3.0",
+    "typescript": "^5.3.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -31,13 +34,8 @@
       "react-app",
       "react-app/jest"
     ],
-    "plugins": [
-      "simple-import-sort"
-    ],
-    "rules": {
-      "simple-import-sort/imports": "error",
-      "simple-import-sort/exports": "error"
-    }
+    "plugins": [],
+    "rules": {}
   },
   "browserslist": {
     "production": [

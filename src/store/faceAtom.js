@@ -5,3 +5,9 @@ export const faceAtom = atom({
   default: null,
   dangerouslyAllowMutability: true,
 });
+
+export const kitAtom = atom({
+  key: 'kitAtom',
+  default: null,
+  dangerouslyAllowMutability: true,
+});

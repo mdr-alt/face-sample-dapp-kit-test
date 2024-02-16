@@ -5,6 +5,7 @@ import AccountInformation from './components/AccountInformation';
 import ConnectNetwork from './components/ConnectNetwork';
 import GNB from './components/GNB';
 import LoginWithFace from './components/LoginWithFace';
+import LoginWithKit from './components/LoginWithKit';
 import SignMessage from './components/SignMessage';
 import TransactionContractCall from './components/TransactionContractCall';
 import TransactionErc20 from './components/TransactionErc20';
@@ -20,7 +21,8 @@ function App() {
       <AccountInformation />
       <div className="wrapper">
         <ConnectNetwork />
-        <LoginWithFace />
+        {/* <LoginWithFace /> */}
+        <LoginWithKit />
         <WalletHome />
         <WalletConnect />
         <TransactionPlatformCoin />

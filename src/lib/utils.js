@@ -89,6 +89,8 @@ export function getProvider(network) {
       return 'https://rpc.mainnet.oasys.games';
     case Network.OASYS_TESTNET:
       return 'https://rpc.testnet.oasys.games';
+    case Network.SAND_VERSE:
+      return 'https://rpc.sandverse.oasys.games';
     default:
       throw Error(`cannot resolve provider with network : ${network}`);
   }
